@@ -1,0 +1,36 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#070912, #111730);
+    margin: 0;
+}
+
+
+button {
+    background: #00d4ff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #070912;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00aacc;
+    transform: scale(1.05);
+}
+
+img{
+    width: 800px;
+}
+
+
+h1{
+    font-size: 40px;
+    color: #f4c430;
+}
